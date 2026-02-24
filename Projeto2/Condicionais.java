@@ -83,6 +83,15 @@ public class Condicionais {
             System.out.println("Você está de recuperação");
         }
 
+        // uso do AND
+
+        int saldo = 1500;
+        String possuiPix = "Sim";
+
+        if(saldo >= 1500 && possuiPix == "Sim"){
+            System.out.println("Infelizmente você não foi liberado o pix para você ");
+        }
+
         scanner.close();
     }
 }
