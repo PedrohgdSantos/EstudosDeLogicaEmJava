@@ -22,6 +22,27 @@ public class AndOrNot {
             System.out.println("Saldo restante: " + debitoConta);
         }
 
+        //Operador OR
+
+        boolean estaChovendo = true;
+        boolean temGuardaChuva = true;
+
+        System.out.println(estaChovendo || temGuardaChuva);
+
+        int idade = 16;
+        boolean ehMembro = true;
+
+
+        if(idade > 16 || ehMembro){
+            System.out.println("Você pode acessar");
+        }else{
+            System.out.println("Entrada Negada");
+        }
+
+
+        //Operador Not
+         System.out.println(!estaChovendo);
+
 
         scanner.close();
     }
